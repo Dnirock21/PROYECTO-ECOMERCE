@@ -1,0 +1,28 @@
+/* Productos.css */
+.productos-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.producto-card {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px #ccc, -3px -3px 6px #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 12px #bbb, -5px -5px 12px #fff;
+}
+
+.producto-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.producto-precio {
+    color: #007aff;
+    font-weight: bold;
+}
